@@ -1,0 +1,281 @@
+REGISTRATION PASSWORD FIELD
+
+TS1: Check whether we can enter the password in the password field
+TS2: Verify if the password field is of proper size.
+TS3: Verify the maximum strength for the password field.
+TS4: Verify the minimum strength for the password field.
+TS5: Check whether the password field accepts only letters.
+TS6: Check whether the password field accepts only numbers.
+TS7: Check whether the password field accepts combination of uppercase, lowercase, numbers, special characters.
+TS8: Check whether the text is legible.
+TS9: Check whether the password field accepts space as character.
+TS10: Check whether any error message is displayed or not when we click on the submit button without entering anything in the password field.
+TS11: Check whether strong/weak password is shown after entering the password.
+TS12: Check whether any message is displayed if the caps lock key is ON while entering the password.
+TS13: Check whether the re-enter password field is given.
+TS14: Check whether any error message is displayed or not when the re-enter password field is kept blank.
+TS15: Check whether any error message is displayed or not when a different password is entered in the re-enter password field.
+TS16: Check whether the re-enter password field accepts the same password that is entered in the password field.
+TS17: Check whether we can copy password and paste it in the re-enter password field.
+TS18: Check whether we can paste password in the password field
+TS19: Check whether the guidelines such as password strength, characters which are allowed and which are not etc… are displayed for the password field.
+TS20: Check whether the field masks the password while writing.
+TS21: Check whether the password becomes visible when we click on the eye button.
+TS22: Check whether the password field has asterisk symbol to show that the field is mandatory.
+TS23: Check whether the password field allows or restrict us from entering characters that are not allowed.
+TS24: Check whether any error message is displayed or not when specified criteria for the password field is not met.
+TS25: Check whether the password field is encrypted
+
+AMAZON CART
+
+TS1: Check whether there is add to cart option.
+TS2: Check whether it is displaying ‘cart is empty’ message, when no item is added to the card.
+TS3: Verify the time taken for the item to get added to the cart.
+TS4: Verify if the brand name of the item selected and item in the cart matches.
+TS5: Verify if the price of the item selected and item in the cart matches.
+TS6: Verify if the discounts are correctly applied to the items in the cart.
+TS7: Verify if the offers applicable for the items in the cart are displayed.
+TS8: Check whether the quantity of items in the cart is displayed.
+TS9: Check whether there is provision for changing the quantity of items in the cart.
+TS10: Check whether ‘save for later’ option applicable.
+TS11: Check whether we can remove multiple items from the cart.
+TS12: Verify for how much time the item will be in the cart before proceeding with payment.
+TS13: Check whether we can add items to the cart anytime.
+TS14: Check whether there is any minimum quantity requirement. 
+TS15: Verify the maximum number of items that can be added.
+TS16: Check whether we can add address and location details.
+TS17: Check whether we can edit address and location details.
+TS18: Verify the payment options available (COD, Card options available).
+TS19: Verify if we can go back to home page anytime
+TS20: Verify if the delivery dates are displayed for each item in the cart.
+TS21: Check whether it redirects to the product page when we click on the product in the cart.
+TS22: Check whether we can remove single item from the cart.
+TS22: Check whether the total amount is displayed .
+
+GOOGLE SEARCH FIELD
+
+TS1: Check whether we can edit the search field.
+TS2: Check whether the search icon is displayed.
+TS3: Check whether characters, numbers and special characters are accepted in the search field.
+TS4: Check whether the ‘search by voice’ icon is present.
+TS5: Check whether voice search is possible.
+TS6: Check whether we can copy paste text in the search field.
+TS7: Check whether image search is possible.
+TS8: Check whether we can copy paste images on the search field.
+TS9: Check whether the suggestions are coming while typing.
+TS10: Check whether we can select from the suggestions.
+TS11: Check whether we can delete the typed text in the search field.
+TS12: Check whether the suggestions are related to what we have searched.
+TS13: Check whether it is redirecting to the ‘search result page’ when we press enter or click search icon, after entering the text in the search field.
+TS14: Check whether relevant results are shown in the search result page.
+TS15: Check whether there is suggestion for correcting spelling mistakes in the text searched.
+TS16: Check whether we can search questions in the search field.
+TS17: Verify the maximum strength of the search field.
+TS18: Verify what happens when search field is kept blank and pressed enter.
+TS19: Verify if the previous searched items are coming as suggestions when we place the cursor on the search field.
+TS20: Verify if can remove the previous searched items from the suggestions.
+TS21: Check whether any error message is shown when audio is not recorded properly during voice search.
+TS22: Check whether proper instructions are shown after we click voice search.
+TS23: Check whether the contents of the search field is same as what we have said using voice search.
+TS24: Check whether any sound is made when voice search fails.
+TS25: Check whether it automatically redirect to the search field when the voice search fails.
+TS26: Check whether we can type URLs in the search field.
+TS27: Verify the fond size of the text.
+
+FUNCTIONALITY
+
+TS1: Check whether all the links, buttons, menus etc… work as expected
+TS2: Check whether all links redirect to correct destination page
+TS3: Verify if there is any broken links
+TS4: Check whether the links behave consistently across all browsers
+TS5: Check whether the links are placed in a consistent and logical location on each page, such as in the header or footer
+TS6: Check whether the website’s search bar returns relevant results
+TS7: Check whether the hamburger menu has the required options and can be selected.
+TS8: Check whether all the input fields are present and are editable
+TS9: Check whether we can select from the drop down menu
+TS10: Check whether the website’s footer navigation contains all the necessary links to important sections of the site and is working properly
+TS11: Check whether all the fields are arranged in the chronological order
+TS12: Check whether all the data inside combo/list box is arranged in chronological order
+TS13: Check whether the mandatory field is marked using asterisk sign
+TS14: Check whether the data entered in fields such as email, phone number, date etc. is in the correct format.
+TS15: Check whether any error message is displayed when invalid format is used in a field
+TS16: Check whether any error message is displayed when input exceeds the maximum allowed strength
+TS17: Check whether all the mandatory fields are filled before clicking the submit button
+TS18: Check whether error message is displayed when any of the mandatory field is skipped and submit button is clicked.
+TS19: Check whether we can submit without entering the optional fields
+TS20: Check whether the system is not displaying error message for optional fields
+TS21: Check whether default values are being populated
+TS22: Check whether the data in the forms is submitted to a live database or is linked to a working email address
+TS23: Check whether negative numbers are allowed in a numeric field.
+TS24: Check whether error message is displayed when alphabets are entered in the numeric field
+TS25: Check whether division by zero is handled properly for calculations
+TS26: Check whether the timeout functionality is working correctly
+TS27: Check whether error message is displayed if data is entered after timeout
+TS28: Check whether all forms are submitted successfully
+TS29: Verify the maximum length of every field to ensure that the data is not truncated
+TS30: Check whether the amount values are displayed in currency format
+TS31: Verify the sorting functionality
+TS32: Verify the email functionality of the system.
+TS33: Check whether the privacy policy & FAQ is clearly defined and are available for users
+TS34: Check whether pop up message is displayed if the data reaches the maximum size of the field
+TS35: Check whether the leap years are validated correctly and do not cause errors/miscalculations
+TS36: Verify all input fields for special characters
+TS37: Verify if any functionality fails the user gets redirected to the custom error page.
+TS38: Check whether all the uploaded documents are opened properly.
+TS39: Verify if the user is able to download the uploaded files.
+TS40: Check whether a cookie is created when a user visits a website for the first time and that the cookies contains the expected data 
+TS41: Check whether login credentials are asked for when we delete cookies and visit the site once again
+TS42: Check whether personalized content is displayed on the site based on the data stored in the cookie
+TS43: Check whether the cookie has an expiry date and is deleted from the user’s device when it expires 
+TS44: Check whether the cookie is deleted from the user’s device when the user clears their browser history and cookies.
+TS45: Verify what happens if a user deletes cookies while in the site.
+TS46: Verify what happens if a user deletes cookies after visiting a site.
+TS47: Check whether the user can block cookies
+
+USABILITY
+
+TS1: Check whether contents displayed on the website are clear and understandable to the user
+TS2: Check whether menus, buttons, links and other navigational elements are easily visible and consistent on all webpages
+TS3: Check whether the contents are legible with no spelling or grammatical errors.
+TS4: Check whether the contents are appropriate
+TS5: Check whether the images matches with the content given
+TS6: Check whether the content is organized logically and users can quickly find the information they need
+TS7: Check whether an alt text appears in place of an image if the image fails to load on a user’s screen
+TS8: Check whether the website has a consistent, clearly recognizable “look & feel”
+TS9: Check whether the website is easy to navigate and whether users can find what they are looking for quickly and easily
+TS10: Check whether the website is accessible to all users including those with disabilities or limitations
+TS11: Check whether the design, layout etc… are consistent across all pages
+TS12: Check whether the website loads quickly so that user don’t get frustrated or lose interest
+TS13: Check whether the website is responsive and optimized for mobile devices
+TS14: Verify the color, contrast, font size…
+TS15: Check whether correct error message is displayed to guide the user
+TS16: verify that the error message has no spelling or grammatical errors
+TS17: Check whether all fields are properly aligned
+TS18: Check whether there is enough space between field labels, columns, rows and error messages
+TS19: Check whether the disabled fields are grayed out
+TS20: Verify if there is any broken links and images
+TS21: Check whether the title is displayed on each web page
+TS22: Verify if the dropdown data is not truncated due to field size
+TS23: Check whether the site provides feedbacks, FAQ ….to help users find solution to their problems
+TS24: Check whether tool tip text is present in every field
+TS25: Check whether the information filled by the user is not cleared if an error occurs on submit
+TS26: Check whether all the tabs are working properly
+TS27: Check whether all buttons, fields… are of standard format and size
+TS28: Check whether the home link is available in every single page
+TS29: Check whether font for a particular section is same and is as per the requirement
+TS30: Check whether all the textboxes, dropdowns and other fields and buttons are accessible by keyboard shortcuts
+TS31: Check whether scroll bar is appearing only if required
+TS32: Check whether the website has scroll up button
+TS33: Check whether confirmation message is displayed for any kind of update and delete operation
+TS34: Check whether the site is displayed correctly in different resolutions
+TS35: Check whether all the text are properly aligned
+
+PERFORMANCE
+TS1: Check whether the page load time is within the acceptable range
+TS2: Check whether the page loads on slow connections
+TS3: Verify website’s response times at different connection speed
+TS4: verify website’s performance under light, moderate and heavy user loads
+TS5: Check whether the website remains responsive and usable when user load is above the maximum load
+TS6: Check whether the site recover from a crash due to peak load
+TS7: Verify CPU and memory usage under peak load conditions
+TS8: Check whether the website remains responsive and usable over an extended period
+TS9: Check whether the application is able to handle sudden increase or decrease of load
+TS10: Check whether the website’s database can handle the expected number of database requests 
+TS11: Check whether the website remains responsive and usable under high database load conditions
+TS12: Check whether the optimization techniques like gzip compression, browser and server side cache enabled to reduce load time
+TS13: Check whether the website loads quickly and remains responsive on different geographical locations with varying network speeds 
+
+
+SECURITY
+
+TS1: Verify the important information like password, credit card numbers etc… are displayed in encrypted format (in asterisk format).
+TS2: Verify the web page which contains important data like password, credit card numbers, secret answers for security question etc… are submitted via HTTPS (SSL). 
+TS3: Check whether we are getting OTP when payment is made using debit card, net banking etc…
+TS4: Verify that the web page uses HTTPs and is enabled for all pages
+TS5: Verify password rules are implemented on all authentication pages like Registration, forgot password, change password.
+TS6: Verify if the password is changed the user should not be able to login with the old password.
+TS7: Verify the error messages should not display any important information.
+TS8: Verify if the user is logged out from the system or user session was expired, the user should not be able to navigate the site.
+TS9: Verify to access the secured and non-secured web pages directly without login.
+TS10: Verify the “View Source code” option is disabled and should not be visible to the user.
+TS11: Verify the user account gets locked out if the user is entering the wrong password several times.
+TS12: Verify the cookies should not store passwords.
+TS13: Verify if, any functionality is not working, the system should not display any application, server, or database information. Instead, it should display the custom error page.
+TS14: Verify the SQL injection attacks.
+TS15: Verify the application for Brute Force Attacks
+TS16: Verify the user roles and their rights. For Example, the requestor should not be able to access the admin page.
+TS17: Check whether bookmarked webpages are accessible without login to the site
+TS18: Check whether browser back button is not available when transaction is processing
+TS19: Verify the important operations are written in log files, and that information should be traceable.
+TS20: Verify the session values are in an encrypted format in the address bar.
+TS21: Verify the cookie information is stored in encrypted format.
+TS22: Check whether we are prevented from doing direct searches by editing content in the URL
+TS23: Verify that restricted page should not be accessible by user after session time out.
+TS24: check whether sessions are automatically killed after prolonged user inactivity
+TS25: Verify the login session timeout duration. So, once logged in a user cannot be authenticated for a lifetime.
+TS26: Verify that once logged in, clicking the back button doesn’t log out the user.
+TS27: check whether restricted files are not downloadable without appropriate access
+TS28: check whether unauthorized access to secure pages is not permitted
+TS29: Verify if we open the application in two browsers and change the password in one browser then then we are not able to access the application in other browser. It should logout automatically
+TS30: Verify if we copy the url and logout, we shouldn’t be allowed to access the account using the copied url.
+TS31: Check whether we can login from multiple devices at a time
+TS32: Check whether we can access the previous accessed pages after we logout and press back button
+
+
+NEGATIVE TEST SCENARIOS FOR WHATSAPP
+
+TS1: Check whether we can register with an invalid phone number format (e.g. using letters instead of digits)
+TS2: Check whether we can Register with a phone number that is already associated with an existing account
+TS3: Check whether we can Register with a phone number that is not valid or does not exist
+TS4: Check whether we access the same account in multiple phones at the same time
+TS5: Check whether we can use an incorrect verification code during registration
+TS6: Check whether we can use an already used verification code during registration
+TS7: Check whether we can log in with an incorrect phone number 
+TS8: Check whether we can send messages without an internet connection
+TS9: Check whether we can send messages to a non-existent phone number or user
+TS10: Check whether we can send messages to a user who has blocked the sender
+TS11: Check whether we can send a regular file having size larger than 100MB as attachment 
+TS12: Check whether we can send a video whose size is more than 17MB
+TS13: Check whether we can send audio message whose size is more than 16MB
+TS14: Check whether we can send a video in a format other than MP4, 3GP, MKV, AVI and MOV. 
+TS15: Check whether we can join a group that has already reached the maximum number of participants (1024 people)
+TS16: Check whether we can add a user to a group chat who has their privacy settings set to only my contacts/ specific contacts can add me to the group
+TS17: Check whether we can add a user to a group who has already left the chat and changed ‘who can add me to group’ settings to only my contacts/ specific contacts
+TS18: Check whether we can add a user to a group who has already been added to the chat
+TS19: Check whether we can add a user to a group who has blocked the sender
+TS20: Check whether we can send a message to a group that has already been deleted
+TS21: Check whether we can send a message to a user who has been deleted or deactivated
+TS22: Check whether we can make a voice or video call without an internet connection
+TS23: Check whether we can make a call to a user who has blocked the caller
+TS24: Check whether we can start a call with a user who is already on another call
+TS25: Check whether we can add more than 32 people to voice call /video call
+TS26: Check whether we can call a non-existent phone number or user
+TS27: Check whether we can share a media file that is corrupted or incompatible with WhatsApp
+TS28: Check whether we can share a media file that contains a virus or malware
+TS529: Check whether we can use GIF as profile picture 
+TS30: Check whether we can put an image other the square size as profile picture
+TS31: Check whether everybody can view the profile picture if it set for only ‘my contacts’
+TS32: Check whether we can send a message in a language that is not supported by WhatsApp
+TS33: Check whether we can send a message with a font size that is too large or too small
+TS34: Check whether we can send a message with a font type that is not supported by WhatsApp
+TS35: Check whether we can change the notification settings for a user who has deleted the app
+TS36: Check whether we can change the notification settings for a chat or group that has been deleted
+TS37: Check whether we use can WhatsApp on an unsupported device or operating system
+TS38: Check whether we can use WhatsApp with an outdated version of the app
+TS39: Check whether we can use WhatsApp while the device is in airplane mode
+TS40: Check whether send a message with a blank text field
+TS41: Check whether name field accepts more than 25 characters
+TS42: Check whether more than 30 images can be send at a time
+TS43: Check whether the status lasts for more than 24 hours
+TS44: Check whether not saved contacts can view status
+TS45: Check whether more than 30 images can be set as status
+TS46: Check whether more than 30 sec (6.4MB) video can be added to status
+TS47: Check whether we can use audio as status
+TS48: Check whether it accepts more than 139 characters in status
+TS49: Check whether we can view last seen of others if we have set our last seen to nobody
+TS50: Check whether we can use GIF as wallpaper
+TS51: Check whether we can pin more than 3 chats
+TS52: Check whether we can add more than 12 options in a poll
+TS53: Check whether it accepts invalid bank details for payments
+TS54: Check whether we can send forward message to more than 5 whatsapp groups/chats
+
