@@ -1,0 +1,205 @@
+TEST SCENARIO-ZOMATO
+
+
+TS1: Check whether we are able to install the app successfully from play Store
+TS2: Check whether the app opens when we click on the app icon
+TS3: Check whether the splash screen appears after we open the app
+TS4: Check whether the splash screen disappears in 3 seconds
+TS5: Check whether the app logo is clearly visible
+TS6: Check whether we can access the app without login 
+TS7: Check whether we can view contents in the preferred language
+TS8: Check whether we can change the preferred language anytime.
+TS9: Check whether we can login using Google or Facebook account without signup.
+TS10: Check whether we can sign up using email id or phone number
+TS11: Check whether all fields, labels, buttons… are properly visible and are in correct format
+TS12: Check whether all fields are editable
+TS13: Check whether suggestions are coming when we place the cursor in the Email id/Phone number field and we are able to select from it
+TS14: Check whether the phone number field restrict the user from entering negative numbers, characters, special characters…
+TS15: Check whether OTP is asked after we enter the phone no/email id and click continue.
+TS16: Check whether the mobile number field accepts only 10 digits
+TS17: Check whether country code is given as default
+TS18: Verify if we change country then country code is changed automatically
+TS19: Check whether the OTP is auto captured
+TS20: Check whether we can enter OTP manually
+TS21: Check whether resend OTP is available
+TS22: Verify the length of OTP
+TS23: Check whether the OTP field accepts characters, numbers, special characters etc…
+TS24: Check whether any error message is displayed when we enter the OTP after the time (10 min) has expired
+TS25: Check whether name field accepts only characters
+TS26: Verify the maximum length of the name field.
+TS27: Check whether we can get updates from zomato through whatsapp if register using whatsapp number
+TS28: Check whether we can filter suggestions based on veg, both veg and non-veg etc…
+TS29: Check whether we can add location manually
+TS30: Check whether the app auto detects the location
+TS31: Check whether we can add multiple locations and change it accordingly
+TS32: Check whether the app informs the user about the non-availability, if the user choose a location where zomato service is not available
+TS33: Check whether we can edit profile informations
+TS34: Check whether an existing user can start a new account.
+TS35: Check whether we can add profile photo
+TS36: Check whether we choose photo from gallery or take photo using mobile camera
+TS37: Check whether preview is available once we select the photo
+TS38: Check whether we can edit photo before it is uploaded
+TS39: Check whether we can change the phone number, email Id…which we have used during registration
+TS40: Check whether we can add Date of birth in the profile page
+TS41: Check whether DOB format is clearly mentioned
+TS42: Check whether we can choose DOB from calendar
+TS43: Check whether the calendar is designed for leap year
+TS44: Check whether we can choose gender –male/female/others
+TS45: Check whether all the information entered in the profile page are uploaded correctly
+TS46: Check whether we can skip name field in the profile page.
+TS47: Check whether we can upload profile information after clearing all the data that was entered
+TS48: Check whether we can change our cover photo
+TS49: Check whether we give ratings and reviews for any hotel.
+TS50: Check whether we can add photos for any hotel
+TS51: Check whether we can follow other zomato users
+TS52: Check whether other zomato users can follow us.
+TS53: Check whether we can share our food journey with others through social media like whatsapp, Telegram, SMS…
+TS54: Check whether the search field is available and is visible
+TS55: Check whether the search field is of proper size
+TS56: Check whether error message is displayed when invalid item(random set of characters/non-existent food item) is entered in the search field
+TS57: Check whether the search field accepts uppercase, lowercase, special characters, numbers
+TS58: Check whether the search field is case sensitive
+TS59: Verify the maximum length of the search field
+TS60: Check whether voice search is possible
+TS61: Check whether image search is possible
+TS62: Check whether we can search by dish name or restaurant name
+TS63: Check whether the search field displays the keywords (restaurant name/dish) that can be searched
+TS64: Check whether suggestions are displayed once enter an item name/restaurants name in the search field
+TS65: Check whether the past searches and popular dishes are displayed when we place the cursor in the search field
+TS66: Check whether we can select items from the past searches/popular dishes
+TS67: Verify that the search results are accurate and matches with the item searched by the user
+TS68: Check whether search is able to recognize the partial terms such as first few letters of food item and suggest matching food items
+TS69: Check whether we can sort the search results based on ratings, delivery time, distance, cost…
+TS70: Check whether the sort functionality is working as expected and the app displays the appropriate results based on the filter criteria
+TS71: Verify that the app can handle multiple search terms (like pizza and burger) and display results that matches all search terms.
+TS72: Check whether we can enter a full sentence in the search field and the app displays relevant results based on the search term
+TS73: Check whether the item name is clearly mentioned
+TS74: Check whether the price and images of each item is clearly displayed
+TS75: Check whether the images matches with the dish name
+TS76: Check whether ratings and reviews are available for each item
+TS77: Check whether the app gives a description of each item selected (like the total quantity, different ingredients used, quantity of meat (in case of non-veg))
+TS78: Check whether we can add an item to the favorite list
+TS79: Check whether we can add/change number of the items.
+TS80: Check whether bestseller items are mentioned
+TS81: Check whether search results are shown based on restaurant and dishes
+TS82: Check whether we can filter search results based on likes, nearest, great offers, ratings 4+, new arrivals…
+TS83: Check whether menu is available for different hotels
+TS84: Check whether we can choose from the menu
+TS85: Check whether restaurant address is mentioned along with the restaurant name
+TS86: Check whether restaurant distance, travel time, customer ratings and reviews are clearly mentioned
+TS87: Check whether offers are clearly mentioned and we can avail these offers
+TS88: Check whether not available restaurants are grayed out
+TS89: Check whether the app informs the user whether a restaurant is not yet opened or is closed
+TS90: Check whether Vegetarian dishes are clearly specified using veg symbol 
+TS91: Check whether we can get information about a hotel like opening hours, direction, Type of food available, contact details…
+TS92: Check whether we can report if there is any error in restaurant information
+TS93: Check whether we can add item to the cart
+TS94: Check whether the cart icon displays the total number items in the cart
+TS95: Check whether the delivery duration is clearly mentioned
+TS96: Check whether we can add multiple items from different hotels
+TS97: Check whether we can change the quantity of each item in the cart using the +/- buttons
+TS98: Check whether price for each item is clearly mentioned in the cart
+TS99: verify if we change the number of items the total price of the item also changes accordingly
+TS100: Check whether we can remove items in the cart
+TS101: Check whether ‘add more item’ option is available in the cart so that the user can go directly to the available dishes of that particular hotel without going back and searching for the item
+TS102: Verify the time taken for the item to get added to the cart.
+TS103: Check whether we can empty cart by clicking ‘empty cart’ button
+TS104: Check whether a user can apply a coupon code to their cart by entering the code into the designated field and clicking apply
+TS105: Verify if the discounts are correctly applied to the items in the cart.
+TS106: Check whether there is any minimum quantity requirement. 
+TS107: Verify the maximum number of items that can be added.
+TS108: Verify for how much time the item will be in the cart before proceeding with payment.
+TS109: Check whether the cart icon is available in all pages
+TS110: Check whether we can add cooking instruction for the order
+TS111: Check whether we can view all the items ordered, total quantity and total price in the cart
+TS112: Check whether the bill summary shows the detailed price details like GST and restaurant charges, Delivery partner fee, discount applied etc…
+TS113: Check whether we can order for someone else in a different location
+TS114: Check whether we can give tip to the delivery partner
+TS115: Check whether we can add delivery instructions like leave at door, leave with guard, avoid calling, don’t ring the bell etc…
+TS116: Check whether we can record delivery instructions
+TS117: Check whether we can save the delivery instructions and use it for future orders
+TS118: Check whether we can change personal details like name, phone number for delivery
+TS119: Check whether we can change delivery address before placing order
+TS120: Check whether we can order same items for multiple address 
+TS121: Check whether we can place order successfully
+TS122: Check whether we can cancel order after it has been prepared but before it has been picked up by the delivery person
+TS123: Check whether we can receive a refund if the cancellation is within the allowed time frame
+TS124: Check whether we can cancel order after it has been picked up by the delivery person
+TS125: Check whether ‘add payment method’ available
+TS126: Verify the different payment modes available (cards, UPI, Wallets, Netbanking, COD, pay later)
+TS127: Check whether we are able to make payment using any of the available options
+TS128: Check whether we can make payment using saved cards, saved UPI ID etc…
+TS129: Check whether we can remove saved cards, saved UPI ID etc…
+TS130: Check whether the password, pin, account number etc… are displayed in encrypted format
+TS131: Check whether order confirmation message is displayed after successful payment
+TS132: Check whether the order details are accurate and matches the user’s selection
+TS133: Check whether we can change the address once we place the order
+TS134: Check whether we can tract order once we place the order.
+TS135: Check whether the progress bar is shown for each item
+TS136: Check whether the estimated delivery and timer is shown in the tract order page.
+TS137: Check whether we can see the route map of the delivery and location of the delivery executive in real time
+TS138: Check whether the customer is notified when the delivery person has picked up the order, when the delivery person has arrived at the delivery location
+TS139: Check whether the order status is updated correctly.
+TS140: Check whether the user is notified of any changes in the order status via push notification
+TS141: Check whether the contact details of the delivery executive is displayed once he is assigned for the order
+TS142: Check whether the customer can contact the delivery executive through the app
+TS143: Check whether we can see the name and photo of the delivery executive assigned to the order
+TS144: Check whether we can provide feedback and ratings of the delivery executive and the overall delivery experience through the app
+TS145: Check whether we can report an issue with the order (missing items, wrong items etc…)
+TS146: Check whether we can request a refund if there is any problem with the order
+TS147: Check whether we can view the status of the refund request
+TS148: Check whether the app is able to handle a large number of orders without crashing or slowing down
+TS149: Check whether the order summary is shown for the recent order after delivery
+TS150: Check whether all the details of the current order are mentioned correctly in the order summary
+TS151: Check whether order history (details of all past orders) is available
+TS152: Check whether we can reorder from the order history
+TS153: Check whether the status of the past orders are clearly mentioned (like delivered, payment incomplete, cancelled)
+TS154: Check whether we can view item in the order history by clicking on the image
+TS155: Check whether we can book a table in a restaurant
+TS156: Check whether we can filter restaurants for booking based on rating, offer, distance, cost etc…
+TS157: Check whether the available restaurants name are displayed in the dinning section
+TS158: Check whether different categories like outdoor dining, family dining, lunch, dinner, events etc… are shown in the dinning section
+TS159: Check whether on clicking different categories we are redirected to the relevant page having the images of restaurants where that particular service is available.
+TS160: Check whether ‘book a table’ is shown once we enter the restaurant page
+TS161: Check whether customers’ dining experience videos are available in the restaurant page
+TS162: Check whether the restaurant name and cost of dinning is displayed along with restaurant image.
+TS163: Check whether the offers are displayed at the top of the page
+TS164: Check whether we can choose date, time, number of persons while booking
+TS165: Check whether fields for entering customer name, phone number are available and are editable
+TS166: Check whether we can enter any special request or preferences in the comment section
+TS167: Check whether we are notified about booking confirmation.
+TS168: Check whether we get a summary of the booking and it matches with the information entered by the customer
+TS169: Check whether zomato wallet is available
+TS170: Check whether activate wallet button is available and is working properly
+TS171: Check whether we are redirected to the activate wallet page once we click the activate wallet button
+TS172: Check whether the activate wallet page contain fields like name, phone number and Id
+TS173: Check whether the mandatory fields are marked correctly
+TS174: Check whether error message is displayed when we click continue without filling the mandatory fields 
+TS175: Check whether the name and mobile number are populated
+TS176: Check whether the acceptable id are mentioned and we are able to select any one
+TS177: Check whether the appropriate id field is displayed when we select from the type of id (PAN, Driving License, Passport) 
+TS178: Check whether error message is displayed for invalid format of the id
+TS179: Check whether the id field is case sensitive
+TS180: Check whether continue button is activated after all valid data are entered
+TS181: Check whether the continue button is working properly and we are redirected to the OTP field
+TS182: Check whether OTP is received once we click continue
+TS183: Check whether the OTP field accepts numbers, characters, special characters etc…
+TS184: Check whether the OTP field accept valid OTP
+TS185: Check whether error message is displayed for invalid OTP
+TS186: Check whether add money page is displayed after OTP verification
+TS187: Check whether add money page has input field for entering money
+TS188: Check whether numbers, characters, special characters etc… are accepted in the amount field
+TS189: Check whether error message is displayed when money exceeding the limit (9k) is added to the wallet
+TS190: Check whether we can choose from the options ( rs500,rs2000,rs5000) rather than entering the amount
+TS191: Check whether ‘Rs’ symbol is given as default
+TS192: Check whether ‘add payment method’ button available and is working
+TS193: Verify the different payment modes available (cards, UPI, Wallets, Netbanking, COD, pay later)
+TS194: Check whether we are able to make payment using any of the available options
+TS195: Check whether wallet balance is displayed after successful payment
+TS196: Check whether we can add money again
+TS197: Check whether we can logout the app
+TS198: Check whether we can the delete the account.
+TS199: Check whether we enter the reason for deleting 
+TS200: Check whether delete account without selecting reason
+TS201: Check whether the account is permanently deleted in 30 days after we delete the account
+TS202: Check whether we can access the account after 30 days from the day of deleting
